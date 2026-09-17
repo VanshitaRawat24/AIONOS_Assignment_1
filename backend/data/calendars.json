@@ -1,0 +1,255 @@
+{
+  "Arjun Malhotra": [
+    {
+      "date": "2026-09-21",
+      "start_time": "09:00",
+      "end_time": "09:35",
+      "title": "Leadership Sync",
+      "attendees": ["Arjun Malhotra", "Neha Kapoor", "Raghav Sethi", "Divya Rao"]
+    },
+    {
+      "date": "2026-09-21",
+      "start_time": "14:00",
+      "end_time": "14:30",
+      "title": "1:1 with Neha",
+      "attendees": ["Arjun Malhotra", "Neha Kapoor"]
+    },
+    {
+      "date": "2026-09-21",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "title": "Blocked",
+      "attendees": ["Arjun Malhotra"]
+    },
+    {
+      "date": "2026-09-22",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "title": "Internal Budget Review",
+      "attendees": ["Arjun Malhotra", "Raghav Sethi", "Divya Rao"]
+    },
+    {
+      "date": "2026-09-22",
+      "start_time": "15:00",
+      "end_time": "15:30",
+      "title": "Blocked",
+      "attendees": ["Arjun Malhotra"]
+    },
+    {
+      "date": "2026-09-23",
+      "start_time": "15:00",
+      "end_time": "15:30",
+      "title": "Call — Meridian Logistics",
+      "attendees": ["Arjun Malhotra", "Priya Nair"]
+    },
+    {
+      "date": "2026-09-23",
+      "start_time": "18:00",
+      "end_time": "18:15",
+      "title": "Blocked",
+      "attendees": ["Arjun Malhotra"]
+    },
+    {
+      "date": "2026-09-24",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "title": "Board Prep Session",
+      "attendees": ["Arjun Malhotra", "Divya Rao"]
+    },
+    {
+      "date": "2026-09-24",
+      "start_time": "09:30",
+      "end_time": "10:00",
+      "title": "Deck Review with Arjun",
+      "attendees": ["Arjun Malhotra", "Neha Kapoor"]
+    },
+    {
+      "date": "2026-09-24",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "title": "Hiring Panel — Sales Associate",
+      "attendees": ["Arjun Malhotra"]
+    },
+    {
+      "date": "2026-09-25",
+      "start_time": "10:00",
+      "end_time": "10:30",
+      "title": "Facilities Check-in",
+      "attendees": ["Arjun Malhotra", "Raghav Sethi"]
+    },
+    {
+      "date": "2026-09-25",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "title": "Blocked",
+      "attendees": ["Arjun Malhotra"]
+    }
+  ],
+  "Neha Kapoor": [
+    {
+      "date": "2026-09-21",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "title": "Blocked",
+      "attendees": ["Neha Kapoor"]
+    },
+    {
+      "date": "2026-09-21",
+      "start_time": "14:00",
+      "end_time": "14:30",
+      "title": "1:1 with Arjun",
+      "attendees": ["Neha Kapoor", "Arjun Malhotra"]
+    },
+    {
+      "date": "2026-09-22",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "title": "Campaign Vendor Call",
+      "attendees": ["Neha Kapoor"]
+    },
+    {
+      "date": "2026-09-23",
+      "start_time": "10:00",
+      "end_time": "10:30",
+      "title": "Deck Prep",
+      "attendees": ["Neha Kapoor"]
+    },
+    {
+      "date": "2026-09-23",
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "title": "Blocked",
+      "attendees": ["Neha Kapoor"]
+    },
+    {
+      "date": "2026-09-24",
+      "start_time": "09:30",
+      "end_time": "10:00",
+      "title": "Deck Review with Arjun",
+      "attendees": ["Neha Kapoor", "Arjun Malhotra"]
+    },
+    {
+      "date": "2026-09-25",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "title": "Blocked",
+      "attendees": ["Neha Kapoor"]
+    }
+  ],
+  "Raghav Sethi": [
+    {
+      "date": "2026-09-21",
+      "start_time": "09:00",
+      "end_time": "09:35",
+      "title": "Leadership Sync",
+      "attendees": ["Raghav Sethi", "Arjun Malhotra", "Neha Kapoor", "Divya Rao"]
+    },
+    {
+      "date": "2026-09-21",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "title": "Blocked",
+      "attendees": ["Raghav Sethi"]
+    },
+    {
+      "date": "2026-09-22",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "title": "Internal Budget Review",
+      "attendees": ["Raghav Sethi", "Arjun Malhotra", "Divya Rao"]
+    },
+    {
+      "date": "2026-09-22",
+      "start_time": "15:30",
+      "end_time": "16:00",
+      "title": "Ops Standup",
+      "attendees": ["Raghav Sethi"]
+    },
+    {
+      "date": "2026-09-23",
+      "start_time": "09:00",
+      "end_time": "11:00",
+      "title": "Blocked",
+      "attendees": ["Raghav Sethi"]
+    },
+    {
+      "date": "2026-09-24",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "title": "Blocked",
+      "attendees": ["Raghav Sethi"]
+    },
+    {
+      "date": "2026-09-25",
+      "start_time": "10:00",
+      "end_time": "10:30",
+      "title": "Facilities Check-in",
+      "attendees": ["Raghav Sethi", "Arjun Malhotra"]
+    },
+    {
+      "date": "2026-09-25",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "title": "Blocked",
+      "attendees": ["Raghav Sethi"]
+    }
+  ],
+  "Divya Rao": [
+    {
+      "date": "2026-09-21",
+      "start_time": "14:30",
+      "end_time": "15:00",
+      "title": "Budget Prep",
+      "attendees": ["Divya Rao"]
+    },
+    {
+      "date": "2026-09-21",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "title": "Blocked",
+      "attendees": ["Divya Rao"]
+    },
+    {
+      "date": "2026-09-22",
+      "start_time": "09:00",
+      "end_time": "09:15",
+      "title": "Quick Call with Arjun",
+      "attendees": ["Divya Rao", "Arjun Malhotra"]
+    },
+    {
+      "date": "2026-09-22",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "title": "Internal Budget Review",
+      "attendees": ["Divya Rao", "Arjun Malhotra", "Raghav Sethi"]
+    },
+    {
+      "date": "2026-09-23",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "title": "Blocked",
+      "attendees": ["Divya Rao"]
+    },
+    {
+      "date": "2026-09-24",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "title": "Board Prep Session",
+      "attendees": ["Divya Rao", "Arjun Malhotra"]
+    },
+    {
+      "date": "2026-09-24",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "title": "Blocked",
+      "attendees": ["Divya Rao"]
+    },
+    {
+      "date": "2026-09-25",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "title": "Blocked",
+      "attendees": ["Divya Rao"]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "voice-note-1",
+    "timestamp": "2026-09-21T18:40:00",
+    "date": "2026-09-21",
+    "speaker": "Arjun Malhotra",
+    "title": "Voice Note 1 — Mon 21 Sep, 6:40 PM",
+    "transcript": "Quick note to self — need to get Raghav that vendor list, I think I said today but it might slip to tomorrow morning, remind me. Also still haven't heard back on the Mumbai lease thing, someone needs to own that, I don't think it's me."
+  },
+  {
+    "id": "voice-note-2",
+    "timestamp": "2026-09-23T08:15:00",
+    "date": "2026-09-23",
+    "speaker": "Arjun Malhotra",
+    "title": "Voice Note 2 — Wed 23 Sep, 8:15 AM",
+    "transcript": "Reminder — expense variance report from Divya needs to be in my hands by Wednesday evening, not Thursday, I want time to go through it before board prep. Also Meridian call — I owe Priya a time, need to lock that in today."
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "thread_id": "thread-vendor-list",
+    "subject": "Vendor List",
+    "topic": "Vendor List",
+    "messages": [
+      {
+        "id": "email-vendor-1",
+        "timestamp": "2026-09-21T09:50:00",
+        "sender": "Raghav Sethi",
+        "sender_email": "raghav.sethi@veridian-corp.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Following up from the sync — can you send the updated vendor list today?"
+      },
+      {
+        "id": "email-vendor-2",
+        "timestamp": "2026-09-21T17:40:00",
+        "sender": "Arjun Malhotra",
+        "sender_email": "arjun.malhotra@veridian-corp.example",
+        "recipients": ["Raghav Sethi"],
+        "content": "Running behind, will send first thing tomorrow morning instead."
+      },
+      {
+        "id": "email-vendor-3",
+        "timestamp": "2026-09-22T09:15:00",
+        "sender": "Raghav Sethi",
+        "sender_email": "raghav.sethi@veridian-corp.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "No worries, whenever you get a chance today works."
+      },
+      {
+        "id": "email-vendor-4",
+        "timestamp": "2026-09-22T18:30:00",
+        "sender": "Arjun Malhotra",
+        "sender_email": "arjun.malhotra@veridian-corp.example",
+        "recipients": ["Raghav Sethi"],
+        "content": "Sorry, got pulled into board prep — will send by tomorrow (Wednesday) morning for sure."
+      },
+      {
+        "id": "email-vendor-5",
+        "timestamp": "2026-09-23T08:45:00",
+        "sender": "Raghav Sethi",
+        "sender_email": "raghav.sethi@veridian-corp.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Just checking — still good for this morning?"
+      }
+    ]
+  },
+  {
+    "thread_id": "thread-campaign-deck",
+    "subject": "Q3 Campaign Deck",
+    "topic": "Q3 Campaign Deck",
+    "messages": [
+      {
+        "id": "email-deck-1",
+        "timestamp": "2026-09-21T11:00:00",
+        "sender": "Neha Kapoor",
+        "sender_email": "neha.kapoor@veridian-corp.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Deck's coming together, still targeting Wednesday for your review."
+      },
+      {
+        "id": "email-deck-2",
+        "timestamp": "2026-09-22T16:15:00",
+        "sender": "Neha Kapoor",
+        "sender_email": "neha.kapoor@veridian-corp.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Heads up — shifting the review to Thursday morning instead of Wednesday, need one more day on the data slides."
+      },
+      {
+        "id": "email-deck-3",
+        "timestamp": "2026-09-23T10:00:00",
+        "sender": "Arjun Malhotra",
+        "sender_email": "arjun.malhotra@veridian-corp.example",
+        "recipients": ["Neha Kapoor"],
+        "content": "Understood, Thursday morning works. What time exactly?"
+      },
+      {
+        "id": "email-deck-4",
+        "timestamp": "2026-09-23T10:20:00",
+        "sender": "Neha Kapoor",
+        "sender_email": "neha.kapoor@veridian-corp.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Let's say 9:30 AM Thursday, before your board prep block."
+      },
+      {
+        "id": "email-deck-5",
+        "timestamp": "2026-09-24T08:00:00",
+        "sender": "Neha Kapoor",
+        "sender_email": "neha.kapoor@veridian-corp.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Deck is ready, attaching the draft ahead of our 9:30 review."
+      }
+    ]
+  },
+  {
+    "thread_id": "thread-meridian-call",
+    "subject": "Call Reschedule",
+    "topic": "Meridian Call",
+    "messages": [
+      {
+        "id": "email-meridian-1",
+        "timestamp": "2026-09-21T13:00:00",
+        "sender": "Priya Nair",
+        "sender_email": "priya.nair@meridianlogistics.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Our scheduled call this week got bumped from our side — can you propose a new time? We're flexible Tuesday–Thursday afternoons."
+      },
+      {
+        "id": "email-meridian-2",
+        "timestamp": "2026-09-22T15:00:00",
+        "sender": "Arjun Malhotra",
+        "sender_email": "arjun.malhotra@veridian-corp.example",
+        "recipients": ["Priya Nair"],
+        "content": "Apologies for the delay — how about Wednesday 3:00 PM?"
+      },
+      {
+        "id": "email-meridian-3",
+        "timestamp": "2026-09-22T17:45:00",
+        "sender": "Priya Nair",
+        "sender_email": "priya.nair@meridianlogistics.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Wednesday 3 PM works on our end, confirmed."
+      },
+      {
+        "id": "email-meridian-4",
+        "timestamp": "2026-09-23T13:30:00",
+        "sender": "Priya Nair",
+        "sender_email": "priya.nair@meridianlogistics.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Quick check — still on for 3 PM today?"
+      },
+      {
+        "id": "email-meridian-5",
+        "timestamp": "2026-09-23T14:00:00",
+        "sender": "Arjun Malhotra",
+        "sender_email": "arjun.malhotra@veridian-corp.example",
+        "recipients": ["Priya Nair"],
+        "content": "Yes, confirmed, see you at 3."
+      }
+    ]
+  },
+  {
+    "thread_id": "thread-expense-report",
+    "subject": "Expense Variance Report",
+    "topic": "Expense Variance Report",
+    "messages": [
+      {
+        "id": "email-expense-1",
+        "timestamp": "2026-09-21T14:30:00",
+        "sender": "Divya Rao",
+        "sender_email": "divya.rao@veridian-corp.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Starting on the July variance numbers, targeting Thursday morning for board prep as discussed."
+      },
+      {
+        "id": "email-expense-2",
+        "timestamp": "2026-09-22T09:00:00",
+        "sender": "Arjun Malhotra",
+        "sender_email": "arjun.malhotra@veridian-corp.example",
+        "recipients": ["Divya Rao"],
+        "content": "Actually, can I get it by Wednesday evening instead? Want time to review before Thursday."
+      },
+      {
+        "id": "email-expense-3",
+        "timestamp": "2026-09-22T09:40:00",
+        "sender": "Divya Rao",
+        "sender_email": "divya.rao@veridian-corp.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Wednesday evening is tight but doable, I'll prioritize it."
+      },
+      {
+        "id": "email-expense-4",
+        "timestamp": "2026-09-23T18:00:00",
+        "sender": "Divya Rao",
+        "sender_email": "divya.rao@veridian-corp.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "Report attached, sent as promised."
+      },
+      {
+        "id": "email-expense-5",
+        "timestamp": "2026-09-23T18:10:00",
+        "sender": "Arjun Malhotra",
+        "sender_email": "arjun.malhotra@veridian-corp.example",
+        "recipients": ["Divya Rao"],
+        "content": "Got it, thank you — exactly what I needed before tomorrow."
+      }
+    ]
+  },
+  {
+    "thread_id": "thread-mumbai-lease",
+    "subject": "Mumbai Office Lease Renewal",
+    "topic": "Mumbai Lease Renewal",
+    "messages": [
+      {
+        "id": "email-lease-1",
+        "timestamp": "2026-09-21T10:15:00",
+        "sender": "Facilities",
+        "sender_email": "facilities@veridian-corp.example",
+        "recipients": ["All Staff"],
+        "content": "Reminder: the Mumbai office lease renewal requires an authorized signature by Friday, 25 September."
+      },
+      {
+        "id": "email-lease-2",
+        "timestamp": "2026-09-22T11:00:00",
+        "sender": "Raghav Sethi",
+        "sender_email": "raghav.sethi@veridian-corp.example",
+        "recipients": ["Arjun Malhotra", "Divya Rao"],
+        "content": "Following up from the sync — has anyone confirmed who's signing off on the Mumbai renewal? Don't think it's been assigned."
+      },
+      {
+        "id": "email-lease-3",
+        "timestamp": "2026-09-23T09:30:00",
+        "sender": "Divya Rao",
+        "sender_email": "divya.rao@veridian-corp.example",
+        "recipients": ["Raghav Sethi", "Arjun Malhotra"],
+        "content": "Not on my end — I believe this typically sits with Facilities directly, not us."
+      },
+      {
+        "id": "email-lease-4",
+        "timestamp": "2026-09-24T16:00:00",
+        "sender": "Facilities",
+        "sender_email": "facilities@veridian-corp.example",
+        "recipients": ["All Staff"],
+        "content": "Second reminder: signature is still pending. Deadline is Friday, 25 September, end of day."
+      },
+      {
+        "id": "email-lease-5",
+        "timestamp": "2026-09-24T16:45:00",
+        "sender": "Raghav Sethi",
+        "sender_email": "raghav.sethi@veridian-corp.example",
+        "recipients": ["Arjun Malhotra"],
+        "content": "This is now one day out and still unowned — can you confirm who's handling it?"
+      }
+    ]
+  }
+]

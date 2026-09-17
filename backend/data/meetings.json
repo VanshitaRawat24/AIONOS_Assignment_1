@@ -1,0 +1,58 @@
+[
+  {
+    "id": "meeting-leadership-sync",
+    "title": "Leadership Sync",
+    "timestamp": "2026-09-21T09:00:00",
+    "end_timestamp": "2026-09-21T09:35:00",
+    "date": "2026-09-21",
+    "time_range": "9:00–9:35 AM",
+    "attendees": [
+      "Arjun Malhotra",
+      "Neha Kapoor",
+      "Raghav Sethi",
+      "Divya Rao"
+    ],
+    "statements": [
+      {
+        "speaker": "Arjun Malhotra",
+        "content": "Asked Neha about Q3 campaign deck."
+      },
+      {
+        "speaker": "Neha Kapoor",
+        "content": "Draft is 80% done. She will send it to Arjun for review by Wednesday."
+      },
+      {
+        "speaker": "Arjun Malhotra",
+        "content": "Told Raghav he would send the updated vendor list. He says he will get it to Raghav by end of day Tuesday."
+      },
+      {
+        "speaker": "Raghav Sethi",
+        "content": "Mumbai office renewal paperwork needs someone to sign off this week. He is not sure whose desk it is on."
+      },
+      {
+        "speaker": "Divya Rao",
+        "content": "Thinks it is supposed to be Facilities, but nobody has picked it up."
+      },
+      {
+        "speaker": "Arjun Malhotra",
+        "content": "flag it, don't assume."
+      },
+      {
+        "speaker": "Divya Rao",
+        "content": "Will pull the July expense variance report before Thursday board prep. She says it will be ready Wednesday evening."
+      },
+      {
+        "speaker": "Arjun Malhotra",
+        "content": "Client call with Meridian Logistics got pushed. He needs to reconfirm the new time with their team himself."
+      },
+      {
+        "speaker": "Neha Kapoor",
+        "content": "Campaign deck review should realistically be Thursday morning instead of Wednesday."
+      },
+      {
+        "speaker": "Arjun Malhotra",
+        "content": "Acknowledges this."
+      }
+    ]
+  }
+]
