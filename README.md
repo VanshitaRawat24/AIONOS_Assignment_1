@@ -1,5 +1,14 @@
 # Executive Productivity Agent — Arjun Malhotra (VP Sales)
 
+## 🌐 Live Demo
+
+**Live Application:**  
+https://aionos-assignment-1-my25.vercel.app/
+
+The application is deployed with a React + Vite frontend and a separate FastAPI backend.
+
+---
+
 > **AIONOS Agentic AI Factory — Assignment 1 Prototype**  
 > An AI-powered executive productivity co-pilot that ingests messy business inputs (meeting transcripts, email threads, voice notes, calendar events) and transforms them into structured commitments, deduplicated action items, temporal status tracking, unclear ownership flags, an executive daily brief, and grounded conversational Q&A.
 
@@ -10,9 +19,10 @@
 Executives process massive amounts of fragmented communication daily across meetings, email threads, voice notes, and calendar schedules. Key commitments get lost, ownership is misassigned, and deadlines evolve without central tracking.
 
 This prototype provides **Arjun Malhotra (VP Sales at Veridian Corp)** with an intelligent agentic productivity co-pilot that:
+
 1. **Separates My Actions vs. Waiting on Others** vs. **Unclear Ownership**.
 2. **Deduplicates Across Sources**: Merges items appearing in meetings, emails, voice notes, and calendar events into single normalized canonical actions with source provenance (`sources: [...]`).
-3. **Strict Ownership Reasoning**: Never auto-assigns or invents owners when data is unconfirmed (e.g. *Mumbai Lease Renewal* is explicitly tagged as `"Ownership unclear — Facilities suggested, but not confirmed"`).
+3. **Strict Ownership Reasoning**: Never auto-assigns or invents owners when data is unconfirmed (e.g. _Mumbai Lease Renewal_ is explicitly tagged as `"Ownership unclear — Facilities suggested, but not confirmed"`).
 4. **Temporal & Evolutionary Reasoning**: Tracks deadline shifts over time (e.g., Vendor list target shifting Tue → Wed morning; Campaign deck review shifting Wed → Thu 9:30 AM). Evaluates status (`Open`, `Completed`, `Waiting on Others`, `Overdue`, `Unclear Ownership`) dynamically based on a **Simulation Date** selector (21–25 Sep 2026).
 5. **Grounded Executive Daily Brief & Q&A**: Generates a daily executive summary and provides conversational Q&A grounded strictly in the data pack with explicit source citations.
 
@@ -60,23 +70,25 @@ flowchart TD
 
 ## 🛠️ Data Model & Canonical Actions
 
-| Action ID | Action Title | Owner | Status (on Sep 24) | Deadline | Source Provenance |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `vendor-list` | **Send Updated Vendor List** | Arjun Malhotra | `Overdue` | Wed 23 Sep 9:00 AM | Leadership Sync + Email Thread 1 + Voice Note 1 |
-| `meridian-call` | **Reconfirm Meridian Call** | Arjun Malhotra | `Completed` | Wed 23 Sep 3:00 PM | Leadership Sync + Email Thread 3 + Voice Note 2 + Calendar |
-| `campaign-deck` | **Review Q3 Campaign Deck** | Neha Kapoor | `Completed` | Thu 24 Sep 9:30 AM | Leadership Sync + Email Thread 2 + Calendar |
-| `expense-report` | **July Expense Variance Report** | Divya Rao | `Completed` | Wed 23 Sep 6:00 PM | Leadership Sync + Email Thread 4 + Voice Note 2 |
-| `mumbai-lease` | **Mumbai Lease Sign-off** | *Unclear ownership* | `Unclear Ownership` | Fri 25 Sep EOD | Leadership Sync + Email Thread 5 + Voice Note 1 |
+| Action ID        | Action Title                     | Owner               | Status (on Sep 24)  | Deadline           | Source Provenance                                          |
+| :--------------- | :------------------------------- | :------------------ | :------------------ | :----------------- | :--------------------------------------------------------- |
+| `vendor-list`    | **Send Updated Vendor List**     | Arjun Malhotra      | `Overdue`           | Wed 23 Sep 9:00 AM | Leadership Sync + Email Thread 1 + Voice Note 1            |
+| `meridian-call`  | **Reconfirm Meridian Call**      | Arjun Malhotra      | `Completed`         | Wed 23 Sep 3:00 PM | Leadership Sync + Email Thread 3 + Voice Note 2 + Calendar |
+| `campaign-deck`  | **Review Q3 Campaign Deck**      | Neha Kapoor         | `Completed`         | Thu 24 Sep 9:30 AM | Leadership Sync + Email Thread 2 + Calendar                |
+| `expense-report` | **July Expense Variance Report** | Divya Rao           | `Completed`         | Wed 23 Sep 6:00 PM | Leadership Sync + Email Thread 4 + Voice Note 2            |
+| `mumbai-lease`   | **Mumbai Lease Sign-off**        | _Unclear ownership_ | `Unclear Ownership` | Fri 25 Sep EOD     | Leadership Sync + Email Thread 5 + Voice Note 1            |
 
 ---
 
 ## 🚀 Quick Start Guide
 
 ### Prerequisites
+
 - Python 3.9+
 - Node.js 18+
 
 ### 1. Run Backend Server (FastAPI)
+
 ```bash
 # Navigate to backend directory
 cd backend
@@ -89,6 +101,7 @@ uvicorn main:app --reload
 ```
 
 ### 2. Run Frontend Dashboard (React + Vite)
+
 ```bash
 # Open a new terminal and navigate to frontend directory
 cd frontend
@@ -101,6 +114,7 @@ npm run dev
 ```
 
 ### 3. One-Click Startup (Windows)
+
 Double-click `start.bat` in the root folder to start both Backend & Frontend simultaneously!
 
 ---
@@ -108,11 +122,13 @@ Double-click `start.bat` in the root folder to start both Backend & Frontend sim
 ## 🧪 Automated Testing Suite
 
 The application includes automated pytest unit tests covering all 12 mandatory assignment test cases:
+
 ```bash
 python -m pytest backend/tests/test_agent.py -v
 ```
 
 ### Verified Test Cases:
+
 1. ✅ Vendor list identified as an Arjun commitment.
 2. ✅ Vendor list duplicates from meeting + email + voice note merged into 1 action.
 3. ✅ Expense report identified as waiting on Divya Rao.
@@ -138,9 +154,9 @@ python -m pytest backend/tests/test_agent.py -v
 6. **Step 6: Open Evidence / Why?**: Click **"Why? / View Evidence"** on the Mumbai lease card. Review the full audit trail showing statements from Leadership Sync, Email Thread 5, and Voice Note 1.
 7. **Step 7: Change Simulation Date**: Switch date selector to **Mon 21 Sep 2026**. Observe how statuses dynamically adjust back to `Open` / `Waiting`.
 8. **Step 8: Ask Executive Q&A**:
-   - Ask: *"What did I promise Raghav?"* → Returns vendor list commitment details with citations.
-   - Ask: *"What is unresolved?"* → Explains Mumbai lease ownership ambiguity with strict grounding.
-   - Ask: *"What happened with the Meridian call?"* → Summarizes rescheduling to Wed 3 PM.
+   - Ask: _"What did I promise Raghav?"_ → Returns vendor list commitment details with citations.
+   - Ask: _"What is unresolved?"_ → Explains Mumbai lease ownership ambiguity with strict grounding.
+   - Ask: _"What happened with the Meridian call?"_ → Summarizes rescheduling to Wed 3 PM.
 
 ---
 
